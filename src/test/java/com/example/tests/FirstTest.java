@@ -17,13 +17,13 @@ public class FirstTest {
     void myFirstTest() {
         // Arrange (Подготовка) - подготавливаем данные
         int numberA = 2;
-        int numberB = 2;
+        int numberB = 3;
 
         // Act (Действие) - выполняем тестируемое действие
         int actualResult = numberA + numberB;
 
         // Assert (Проверка) - проверяем результат
-        int expectedResult = 4;
+        int expectedResult = 5;
         assertEquals(expectedResult, actualResult,
                 "Сумма 2 + 2 должна быть равна 4");
     }
