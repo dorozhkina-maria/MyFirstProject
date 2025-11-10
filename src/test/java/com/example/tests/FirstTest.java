@@ -16,7 +16,7 @@ public class FirstTest {
     @Test
     void myFirstTest() {
         // Arrange (Подготовка) - подготавливаем данные
-        int numberA = 5;
+        int numberA = 2;
         int numberB = 3;
 
         // Act (Действие) - выполняем тестируемое действие
