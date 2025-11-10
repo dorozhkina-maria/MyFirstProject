@@ -23,7 +23,7 @@ public class FirstTest {
         int actualResult = numberA + numberB;
 
         // Assert (Проверка) - проверяем результат
-        int expectedResult = 4;
+        int expectedResult = 5;
         assertEquals(expectedResult, actualResult,
                 "Сумма 2 + 2 должна быть равна 4");
     }
